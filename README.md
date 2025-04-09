@@ -1,4 +1,4 @@
-Project Overview: Employee Performace prediction.
+Project Overview: Employee Performance prediction.
 
 Business Requirement
 INX Future Inc. is a well-established data analytics and automation solutions provider with over 15 years of global business experience. Recently, the company has seen a decline in employee performance indices, raising concerns among senior leadership. In response, CEO Mr. Brian initiated a data science project to analyze current employee data and uncover the root causes of low performance.
