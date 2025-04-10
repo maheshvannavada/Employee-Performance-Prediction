@@ -1,6 +1,6 @@
-Project Overview: Employee Performance prediction.
+**Project Overview: Employee Performance Prediction**
 
-Business Requirement
+**Business Requirement**
 INX Future Inc. is a well-established data analytics and automation solutions provider with over 15 years of global business experience. Recently, the company has seen a decline in employee performance indices, raising concerns among senior leadership. In response, CEO Mr. Brian initiated a data science project to analyze current employee data and uncover the root causes of low performance.
 
 The objective of this project is to:
@@ -13,7 +13,7 @@ Develop a predictive model to estimate employee performance
 
 Provide data-driven recommendations to improve performance
 
-Data Analysis and Preprocessing
+**Data Analysis and Preprocessing**
 The dataset is supervised and contains mostly categorical variables. The target variable, 'Performance Rating', is ordinal. The predictor variables include both ordinal and nominal data types.
 
 The following steps were performed during preprocessing:
@@ -26,9 +26,10 @@ Correlation analysis to understand the relationships between variables
 
 Feature selection based on correlation and relevance to the business problem
 
-Key features selected for modeling include: Department, Job Role, Environment Satisfaction, Last Salary Hike Percent, Work Life Balance, Experience Years at Company, Experience Years in Current Role, Years Since Last Promotion, and Years With Current Manager.
+**Key features selected for modeling include:**
+ Department, Job Role, Environment Satisfaction, Last Salary Hike Percent, Work Life Balance, Experience Years at Company, Experience Years in Current Role, Years Since Last Promotion, and Years With Current Manager.
 
-Machine Learning Models Used
+**Machine Learning Models Used**
 Several classification algorithms were implemented to train the model and predict performance ratings:
 
 Logistic Regression
@@ -47,7 +48,7 @@ XGBoost Classifier
 
 Artificial Neural Network (MLP Classifier)
 
-Summary of Workflow
+**Summary of Workflow**
 Imported the dataset and identified predictors and the target variable
 
 Analyzed department-wise performance
@@ -62,7 +63,7 @@ Trained multiple models and evaluated their performance
 
 Exported the best-performing model using joblib
 
-Results
+**Results**
 The Random Forest model with GridSearchCV achieved the highest accuracy of 93%
 
 The XGBoost Classifier performed similarly, with an accuracy of 92.8%
@@ -93,10 +94,10 @@ Years in Current Role
 
 Years With Current Manager
 
-Insights and Conclusion
+**Insights and Conclusion**
 The analysis suggests that improving work environment, offering timely salary hikes, and promoting a healthy work-life balance can significantly enhance employee performance. Conversely, lack of promotions and static roles or management over extended periods can lower performance.
 
-Recommendations
+**Recommendations**
 Based on the findings, the following recommendations are made:
 
 Improve the overall work environment to enhance employee satisfaction
